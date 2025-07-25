@@ -1,4 +1,4 @@
-EXPECTED = "Hello, Test!"
+EXPECTED = "hello, Test!"
 
 OUTPUT = $(node -e "console.log(require('./src/app')('Test'))")
 
